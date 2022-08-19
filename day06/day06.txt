@@ -1,0 +1,12 @@
+
+Topics covered
+
+MySql: DML       DDL       MAVEN       GIT
+JDBC       prepare statement       databasse connectivity
+Tasks
+
+INNER JOIN
+OUTER JOIN
+LEFT JOIN
+RIGHT JOIN
+
