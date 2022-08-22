@@ -1,0 +1,20 @@
+Mini Project using Java - Todo
+
+Spring - Basics
+
+1. Tightly Coupled
+2. loosely Coupled
+ 3. Component & Auto wired
+4. Primary
+5. Constructor & Setter injection
+6.Auto wiring by name
+7. Qualifier
+8. Bean Scope
+ 9. Complex Scope
+10Component Scan 
+11.lifecycle of a Bean 
+12. CDI
+13. without Sping Bort
+ 14. Xml configuration
+
+GIT Branching
