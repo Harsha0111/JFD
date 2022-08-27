@@ -1,0 +1,9 @@
+
+Topics Covered
+1.Web flux
+2.Reactive Mongo
+3.Reactive types    Flux    Mono
+4.JPA Entity Relationships
+
+Tasks covered    Program using JPA Entity Relationships
+
