@@ -2,19 +2,20 @@ package com.nseit.studentcourse.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 
 @Entity
 @Data
 public class Student {
     @Id
     @GeneratedValue
-    private Integer id;
+    private Integer stuId;
     private String studentName;
     private Integer rollNo;
     private Integer age;
-    @ManyToMany
+//    @ManyToMany(mappedBy = "student")
+//    private List<Student> student;
 }
