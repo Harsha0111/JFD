@@ -1,0 +1,15 @@
+Topics covered:
+1. Spring Boot JPA.
+    i. Java Persistance API.
+    ii. Object Relation Mapping (ORM).
+    iii. JPA Entity Managers
+    iv. JPA Mappings.
+2. Spring Boot Rest Controller.
+    i. RestController
+    ii. RequestBody.
+    iii. RequestMapping.
+
+
+
+Tasks Covered:
+1. Entity Relationship programs using Hibernate and MySQL.
