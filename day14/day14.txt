@@ -1,0 +1,26 @@
+Topics covered:
+
+HTML
+Basics
+Lists
+Images
+Links
+Tables
+Forms
+
+CSS    
+Selector
+Box model
+Dimensions
+Positions
+Font,text color
+
+Recap:
+Springboot Security-
+role base
+basic auth
+
+Tasks:
+
+HTML,CSS web pages (creating the formslike login,register and menulist for main project)
+Add role base authentication in main project
