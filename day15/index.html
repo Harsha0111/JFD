@@ -1,190 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
-    <title>University Website Design</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?
-family-Poppins:wght@100;200;300;400;600;700&display-swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <section class="header">
-      <nav>
-        <a href="index.html"><img src="images/logo.png" /></a>
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">COURSE</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT</a></li>
-          </ul>
-        </div>
-        <i class="fa fa-times" onclick="showMenu()"></i>
-      </nav>
-      <div class="text-box">
-        <h1>World's Biggest University</h1>
-        <p>
-          Making website is now one of the easiest thing in the world. You just
-          need to learn HTML, CSS,<br />
-          JavaScript and you are good to go.
-        </p>
-        <a href="" class="hero-btn">Visit Us To know More</a>
-      </div>
-    </section>
-    <!-- ---Course---- -->
+<html>
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-        <div class="row">
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
-                </p>
-            </div>
-            <div class="course-col">
-                <h3>Degree</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
-                </p>
-            </div>
-            <div class="course-col">
-                <h3>Graduation</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
-                </p>
-            </div>
-    </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+</head>
+<body>
+	<!----hero Section start---->
 
-    </section>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			<a href="#" class="btn">Subscribe</a>
+		</nav>
 
-    <!-- ---campus---- -->
-    <section class="campus">
-        <h1>Our Global Campus</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Tahmid <span>Ahmed</span></h1>
+			<h3>I'am a Web Developer.</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Lets Start">
+				</form>
+			</div>
+		</div>
+	</div>
 
-        <div class="row">
-          <div class="campus-col">
-            <img src="images/london.png">
-           <div class="layer">
-              <h3>LONDON</h3>
-          </div>
-          </div>
-          <div class="campus-col">
-            <img src="images/newyork.png">
-           <div class="layer">
-              <h3>NEW YORK</h3>
-          </div>
-          </div>
-          <div class="campus-col">
-            <img src="images/washington.png">
-           <div class="layer">
-              <h3>WASHINGTON</h3>
-          </div>
-        </div>
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
 
-    </section>
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2>Our Services</h2>
+		</div>
 
-    <!-- -----Facilities---- -->
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-    <selection class="facilities">
-      <h1>Our Facilities</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
 
-      <div class="row">
-        <div class="facilities-col">
-          <img src="images/library.png">
-          <h3>World Class Library</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
-        </div>
-        <div class="facilities-col">
-          <img src="images/basketball.png">
-          <h3>Play Ground </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
-        </div>
-        <div class="facilities-col">
-          <img src="images/cafeteria.png">
-          <h3>World Tasty and Healthy Food</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
-        </div>
-      </div>
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-    </selection>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
 
-    <!-- ----testimonial---- -->
-    <section class="testimonials">
-      <h1>What Our Student Says</h1>
-      <p>    Lorem ipsum dolor sit amet, consectetur adipisciting elit.
-      </p>
-      <div class="row">
-          <div class="testimonial-col">
-          <img src="eduford_img/user1.jpg">
-          <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deserunt voluptate illo id beatae reprehenderit odio! At exercitationem omnis harum reiciendis cum sapiente quos, sed consectetur quidem ullam. Facere, accusamus!</p>
-              <h3>Christine Berkley</h3>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-  
-  
-          </div>
-      </div>
-      <div class="testimonial-col">
-          <img src="eduford_img/user2.jpg">
-          <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deserunt voluptate illo id beatae reprehenderit odio! At exercitationem omnis harum reiciendis cum sapiente quos, sed consectetur quidem ullam. Facere, accusamus!</p>
-              <h3>David Byer</h3>
-              <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star--o"></i>
-  
-          </div>
-          </div>
-      </div>
-  </section>
-  
-  <!-----Call to Action------->
-  <section class="cta">
-      <h1>Enroll for our various online course<br>anywhere from the woeld</h1>
-      <a href="" class="hero-btn">CONTACT US</a>
-  </section>
-  <!-----footer------->
-  <section class="footer">
-      <h4>ABOUT US</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae excepturi <br>quas corrupti nesciunt accusamus sint</p>
-  <div class="icons">
-      <i class="fa fa-facebook"></i>
-      <i class="fa fa-twitter"></i>
-      <i class="fa fa-instagram"></i>
-      <i class="fa fa-linkedin"></i>
-  </div>
-  <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials
-  </p>
-  </section>
-      <!--------JavaScript for toogle menu----------->
-      <script>
-          var navLinks = document.getElementById("navLinks");
-          function showMenu(){
-              navLinks.style.right = "0";
-          }
-          function hideMenu(){
-              navLinks.style.right = "-200px"
-          }
-      </script>
-  </body>
-  
-  </html>
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Tahmid Ahmed</p>
+		<p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By Tahmid Ahmed</p>
+	</footer>
+</body>
+</html>
