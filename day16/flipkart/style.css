@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flipkart{
+    color:white;
+    background-color :blue;
+    border: opx solid white;
+    padding: 0;
+    position: relative;}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: top 5 px;
+    padding-left: 10%;
+    padding-right: 10%;
+    vertical-align: middle;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.images{
+    width:100% ;
+    margin: auto;
+    text-align: center;
+    padding-top: 0%;
+}
+.image-col{
+    float: left;
+    width: 10%;
+    padding: 5px;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
