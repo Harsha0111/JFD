@@ -1,7 +1,8 @@
 package com.nseit.blog.exception;
 
-import com.codewithashith.Delete_blog.response.APIResponse;
-import com.codewithashith.Delete_blog.response.ErrorResponse;
+
+import com.nseit.blog.response.APIResponse;
+import com.nseit.blog.response.ErrorResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

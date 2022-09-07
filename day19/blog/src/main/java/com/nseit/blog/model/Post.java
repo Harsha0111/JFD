@@ -1,11 +1,11 @@
 package com.nseit.blog.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -14,6 +14,16 @@ public class Post {
     @Id
     @GeneratedValue
     private Integer id;
-    private String titl
+    private String title;
+    private String description;
+    private LocalDateTime localDateTime;
 
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
+    private BlogUser blogUser;
+
+    public Post() {
+        this.localDateTime = LocalDateTime.now();
+    }
 }

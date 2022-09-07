@@ -1,5 +1,6 @@
 package com.nseit.blog.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -22,7 +23,7 @@ public class Role {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
-
+    @JsonIgnore
     @ManyToMany(mappedBy = "roles", cascade = CascadeType.ALL)
     private Set<BlogUser> blogUsers;
 

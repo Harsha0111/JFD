@@ -1,9 +1,8 @@
 package com.nseit.blog.dataLoader;
 
-import com.codewithashith.Delete_blog.model.BlogUser;
-import com.codewithashith.Delete_blog.model.Role;
-import com.codewithashith.Delete_blog.repository.RoleRepository;
-import com.codewithashith.Delete_blog.repository.UserRepository;
+
+import com.nseit.blog.model.BlogUser;
+import com.nseit.blog.model.Role;
 import com.nseit.blog.repository.RoleRepository;
 import com.nseit.blog.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -58,10 +57,10 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
     }
 
     @Transactional
-    private BlogUser createUserIfNotFound(final String name, final Role role) {
-        BlogUser user = userRepository.findByUserName(name);
+    private BlogUser createUserIfNotFound(final String userName, final Role role) {
+        BlogUser user = userRepository.findByUserName(userName);
         if (user == null) {
-            user = new BlogUser(name, bCryptPasswordEncoder.encode("admin"));
+            user = new BlogUser(userName, bCryptPasswordEncoder.encode("admin"));
             user.setRoles(Set.of(role));
             user = userRepository.save(user);
         }
