@@ -1,0 +1,13 @@
+import React, { useState } from "react";
+import InputComponent from "./components/InputComponent";
+
+const App = () => {
+  const [bus, setBus] = useState("");
+  return (
+    <div>
+      <InputComponent driver={bus} getBus={setBus} />
+    </div>
+  );
+};
+
+export default App;

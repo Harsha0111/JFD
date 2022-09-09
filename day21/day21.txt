@@ -1,0 +1,11 @@
+Topics covered:
+-advance react
+-contact API
+-directory structure
+-routing
+-component lifecycle
+-react example, front end UI, feedback form
+Project:
+project wrok in progress
+
+ REACT-example code
